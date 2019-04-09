@@ -81,6 +81,8 @@ def gera_sql_especies(arquivo, id):
     arquivo.write(f"insert into especies(especie, idespecie)"
           f"values('{gera_especies_animais(id)}',  {id+1});\n")
 
+def gera_sql_pessoas(arquivo, id):
+    
 
 arquivo = open("insere.sql", "w", encoding="utf8")
 
